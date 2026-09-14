@@ -1,392 +1,722 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>Portfolio</h2>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Saad Ahmed</h2>
         </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </nav>
 
     <!-- Home Section -->
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Hello, I'm <span class="highlight">Saad Ahmed</span></h1>
-                <p class="hero-subtitle">Web Developer & Designer</p>
-                <p class="hero-description">
-                    Passionate about creating beautiful, functional, and user-centered digital experiences. 
-                    With a focus on modern web technologies and responsive design.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/saadahmed333" class="social-link" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/saad-ahmed-0700b4249/" class="social-link" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-placeholder">
-                    <img src="my_image.png" alt="Profile Picture" class="profile-image">
-                    <!-- <i class="fas fa-user"></i> -->
-                </div>
-            </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hello, I'm <span class="highlight">Saad Ahmed</span>
+          </h1>
+          <p class="hero-subtitle">Senior Software Developer</p>
+          <p class="hero-description">
+            Senior Software Developer with 4 years of experience building
+            responsive, high-performance web and mobile applications. Skilled in
+            React Native, TypeScript, Next.js, and Node.js, with a focus on
+            creating scalable applications, clean user interfaces, and smooth
+            user experiences.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://github.com/saadahmed333"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/saad-ahmed-0700b4249/"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
+        <div class="hero-image">
+          <div class="profile-placeholder">
+            <img
+              src="my_image.png"
+              alt="Profile Picture"
+              class="profile-image"
+            />
+            <!-- <i class="fas fa-user"></i> -->
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- About Me Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I am a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and modern 
-                        frameworks. My journey in web development started with curiosity about how websites work, 
-                        and has evolved into a career focused on creating meaningful digital experiences.
-                    </p>
-                    <p>
-                        I believe in writing clean, maintainable code and staying up-to-date with the latest industry 
-                        trends and best practices. Whether it's building responsive layouts or implementing interactive 
-                        features, I approach every project with enthusiasm and attention to detail.
-                    </p>
-                    <div class="about-info">
-                        <div class="info-item">
-                            <span class="info-label">Name:</span>
-                            <span class="info-value">Saad Ahmed</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Email:</span>
-                            <span class="info-value">saadahmed1752@gmail.com</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Location:</span>
-                            <span class="info-value">Karachi, Pakistan</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Status:</span>
-                            <span class="info-value">Available for work</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <div class="about-placeholder">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              As a Senior Software Developer with 4 years of experience, I
+              specialize in building responsive, high-performance web and mobile
+              applications. My expertise lies in developing modern web and
+              mobile solutions, with a focus on delivering seamless user
+              interfaces and optimized user experiences. I am adept at
+              transforming complex requirements into functional and
+              aesthetically pleasing applications that perform well across
+              various devices.
+            </p>
+            <div class="about-info">
+              <div class="info-item">
+                <span class="info-label">Name:</span>
+                <span class="info-value">Saad Ahmed</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span class="info-value">saadahmed1742@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location:</span>
+                <span class="info-value">Karachi, Pakistan</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Status:</span>
+                <span class="info-value">Available for work</span>
+              </div>
             </div>
+          </div>
+          <div class="about-image">
+            <div class="about-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-content">
-                <div class="skills-category">
-                    <h3>Frontend Development</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-html5"></i>
-                            </div>
-                            <h4>HTML5</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-css3-alt"></i>
-                            </div>
-                            <h4>CSS3</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-js"></i>
-                            </div>
-                            <h4>JavaScript</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-react"></i>
-                            </div>
-                            <h4>React</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="75%"></div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-content">
+          <div class="skills-category">
+            <h3>Mobile Development</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-react"></i>
                 </div>
-                <div class="skills-category">
-                    <h3>Tools & Technologies</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-git-alt"></i>
-                            </div>
-                            <h4>Git</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-sass"></i>
-                            </div>
-                            <h4>SASS</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-wordpress"></i>
-                            </div>
-                            <h4>WordPress</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="65%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-figma"></i>
-                            </div>
-                            <h4>Figma</h4>
-                            <div class="skill-level">
-                                <div class="skill-bar" data-level="60%"></div>
-                            </div>
-                        </div>
-                    </div>
+                <h4>React Native</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="90%"></div>
                 </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-js"></i>
+                </div>
+                <h4>TypeScript</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-apple"></i>
+                </div>
+                <h4>iOS Development</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-android"></i>
+                </div>
+                <h4>Android Development</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="80%"></div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="skills-category">
+            <h3>Web Development</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-js"></i>
+                </div>
+                <h4>JavaScript (ES6+)</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <h4>Next.js</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-node-js"></i>
+                </div>
+                <h4>Node.js</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <h4>Python</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>State Management & Tools</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <h4>Redux / Context API</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+                <h4>Git / GitHub</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fas fa-rocket"></i>
+                </div>
+                <h4>App Deployment</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-apple"></i>
+                </div>
+                <h4>Xcode</h4>
+                <div class="skill-level">
+                  <div class="skill-bar" data-level="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">E-Commerce Website</h3>
-                        <p class="project-description">
-                            A fully responsive e-commerce platform with product catalog, shopping cart, and checkout functionality.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">jQuery</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-tasks"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Task Management App</h3>
-                        <p class="project-description">
-                            A productivity application for managing tasks with drag-and-drop functionality and local storage.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">Local Storage</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-weather-sun"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Weather Dashboard</h3>
-                        <p class="project-description">
-                            Real-time weather application with location-based forecasts and interactive weather maps.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">API Integration</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">AJAX</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-blog"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Personal Blog</h3>
-                        <p class="project-description">
-                            A clean and modern blog platform with article management, categories, and comment system.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">jQuery</span>
-                            <span class="tech-tag">PHP</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">Source Code</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-pray"></i>
+              </div>
             </div>
+            <div class="project-content">
+              <h3 class="project-title">Unlocked By Prayer</h3>
+              <p class="project-description">
+                A prayer-focused mobile app that allows users to schedule prayer
+                times and automatically blocks distracting apps and
+                notifications during those periods, helping users stay focused
+                and maintain digital discipline.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Redux Toolkit</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://apps.apple.com/pk/app/unlocked-by-prayer/id6762228661"
+                  class="project-link"
+                  target="_blank"
+                  >View on App Store</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-utensils"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Ready To Dine</h3>
+              <p class="project-description">
+                A food and restaurant booking app that allows users to discover
+                restaurants, make reservations, and plan dining experiences with
+                collaborators.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">API Integration</span>
+                <span class="tech-tag">Redux</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://apps.apple.com/us/app/ready-to-dine/id6673915399"
+                  class="project-link"
+                  target="_blank"
+                  >View on App Store</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-link"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Napa Society App</h3>
+              <p class="project-description">
+                A Blockchain Mobile App using multiple libraries like
+                react-native-camera, gallery, biometric, size-matter, video,
+                tags, qr-code-scanner, dropdown-select-list, navigation, Redux
+                Toolkit, Firebase, and push notifications.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Blockchain</span>
+                <span class="tech-tag">Redux Toolkit</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://apps.apple.com/au/app/napa-society/id6467675852"
+                  class="project-link"
+                  target="_blank"
+                  >View on App Store</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-laugh-beam"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Laughappy</h3>
+              <p class="project-description">
+                A social media app similar to Facebook that allows users to
+                connect with friends, share posts, photos, and videos, like and
+                comment on content, and discover trending topics. Features
+                include real-time messaging, story sharing, and a personalized
+                news feed to keep users engaged with their social circle.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Redux Toolkit</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://apps.apple.com/us/app/laughappy/id6756734114"
+                  class="project-link"
+                  target="_blank"
+                  >View on App Store</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-broom"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Relyon Housekeeping</h3>
+              <p class="project-description">
+                A housekeeping services app that connects users with
+                professional cleaners for home and office cleaning. Features
+                include booking scheduling, service provider profiles, real-time
+                tracking, secure payments, and rating system to ensure quality
+                service delivery for all cleaning needs.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Redux Toolkit</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://apps.apple.com/us/app/relyon-housekeeping/id6471564977"
+                  class="project-link"
+                  target="_blank"
+                  >View on App Store</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-music"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Radius Music</h3>
+              <p class="project-description">
+                A music streaming app that allows users to discover, stream, and
+                enjoy their favorite music. Features include personalized
+                playlists, music recommendations based on listening habits,
+                offline mode for downloading songs, social sharing, and a vast
+                library of tracks across various genres.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Redux Toolkit</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://apps.apple.com/us/app/radius-music/id6741929181"
+                  class="project-link"
+                  target="_blank"
+                  >View on App Store</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">STR Marketing</h3>
+              <p class="project-description">
+                A marketing platform that uses AI to create social media posts
+                and allows users to publish content across multiple platforms.
+                It also enables users to create, manage, and run advertising
+                campaigns directly from the app.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">AI Integration</span>
+                <span class="tech-tag">API Integration</span>
+                <span class="tech-tag">TypeScript</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience-content">
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>Senior Full-Stack Developer</h3>
+              <div class="experience-meta">
+                <span class="company">Ripple Mind</span>
+                <span class="date">08/2025 - Present</span>
+                <span class="location">Karachi, Pakistan</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Led the development and maintenance of web and mobile
+                  applications, making key technical decisions to ensure
+                  scalable, high-performance, and user-friendly solutions.
+                </li>
+                <li>
+                  Guided development tasks, reviewed code, resolved complex
+                  technical issues, and collaborated with the team to deliver
+                  features efficiently and on time.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>Web & App Developer</h3>
+              <div class="experience-meta">
+                <span class="company">Sybex Lab</span>
+                <span class="date">02/2024 - 08/2025</span>
+                <span class="location">Karachi, Pakistan</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Developed intuitive and responsive mobile applications using
+                  React Native for both iOS and Android, focusing on clean UI
+                  and smooth user experiences.
+                </li>
+                <li>
+                  Optimized application performance, participated in code
+                  reviews and Agile development processes, and delivered
+                  high-quality features within project timelines.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>React Native Developer</h3>
+              <div class="experience-meta">
+                <span class="company">InApp Solutions</span>
+                <span class="date">02/2023 - 02/2024</span>
+                <span class="location">Karachi, Pakistan</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Developed responsive and user-friendly mobile applications
+                  using React Native for both iOS and Android platforms.
+                </li>
+                <li>
+                  Integrated APIs, implemented new features, fixed bugs, and
+                  optimized app performance to ensure smooth and reliable
+                  applications.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-content">
+          <div class="education-item">
+            <div class="education-header">
+              <h3>Bs Software Engineering</h3>
+              <div class="education-meta">
+                <span class="institution">Iqra University</span>
+                <span class="date">10/2023 - Present</span>
+                <span class="location">Karachi, Pakistan</span>
+              </div>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-header">
+              <h3>Diploma in Information Technology</h3>
+              <div class="education-meta">
+                <span class="institution"
+                  >Memon Industrial and Technical Institute</span
+                >
+                <span class="date">10/2020 - 10/2023</span>
+                <span class="location">Karachi, Pakistan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>
-                        I'm always interested in hearing about new projects and opportunities. 
-                        Whether you have a question or just want to say hi, feel free to get in touch!
-                    </p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Email</h4>
-                                <p>saadahmed1742@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Phone</h4>
-                                <p>+92 318 2532365</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Location</h4>
-                                <p>Karachi, Pakistan</p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in hearing about new projects and
+              opportunities. Whether you have a question or just want to say hi,
+              feel free to get in touch!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p>saadahmed1742@gmail.com</p>
                 </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <p>+92 310 2732930</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Karachi, Pakistan</p>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2026 Saad Ahmed. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="https://github.com/saadahmed333" class="social-link" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/saad-ahmed-0700b4249/" class="social-link" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2026 Saad Ahmed. All rights reserved.</p>
+          <div class="footer-social">
+            <a
+              href="https://github.com/saadahmed333"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/saad-ahmed-0700b4249/"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
